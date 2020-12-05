@@ -5,14 +5,7 @@
 * [1. Apresentação](#1-apresentação)
 * [2. Detalhes do projeto](#2-detalhes-do-projeto)
 * [3. Aprendizagem](#3-aprendizagem)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios mínimos de aceitação do
-  projeto](#5-critérios-mínimos-de-aceitação-do-projeto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Pistas, dicas e leituras
-  complementares](#8-pistas-dicas-e-leituras-complementares)
-* [9. Checklist](#9-checklist)
+* [4. Checklist](#4-checklist)
 
 ***
 
@@ -159,7 +152,7 @@ Durante o projeto nós conseguimos aprender:
 * [X] Gerenciar repositórios de GitHub (clone | fork | gh-pages)
 * [X] Colaboração no Github (branches | pull requests | |tags)
 
-## 9. Checklist
+## 4. Checklist
 
 * [ ] Usar VanillaJS.
 * [ ] Não utilizar `this`.
