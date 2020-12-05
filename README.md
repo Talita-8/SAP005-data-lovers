@@ -56,8 +56,12 @@ mas também o acesso através do Touch.
 ![mobile-menu](https://user-images.githubusercontent.com/71895567/101231652-7965c980-368b-11eb-9904-21678db18a6e.png)
 
 
-Se você é fã, simplesmente gosta de assitir em seu tempo livre ou quer saber um pouco mais
-sobre os personagens da série, nós te convidamos para acessar nossa aplicação neste link.
+Optamos desenvolvê-lo todo em inglês, afinal os arquivos com os dados dos personagens estão nessa língua.
+Mas pode ser revertido com o uso de tradutores automáticos no seu navegador.
+
+
+Então se você é fã, simplesmente gosta de assitir em seu tempo livre ou quer saber um pouco mais
+sobre os personagens da série, nós te convidamos a acessar nossa aplicação neste link.
 
 
 ## 2. Detalhes do projeto
