@@ -49,7 +49,7 @@ São os 10 personagens mais relevantes, complementando informações mais detalh
 
 #### Mobile Version
 
-O menu principal é totalmente responsivo e em sua versão Mobile  com botões maiores, trás um layout que facilita não apenas a visualização
+O menu principal é totalmente responsivo e em sua versão Mobile  com botões maiores, temos um layout que facilita não apenas a visualização
 mas também o acesso através do Touch.
 
 
@@ -66,8 +66,7 @@ sobre os personagens da série, nós te convidamos para acessar nossa aplicaçã
 
 O projeto foi desenvolvido usando Metodologia Ágil, dividido em 3 sprints e ao fim de cada uma delas era necessário possuir um produto
 pronto para o uso. 
-em preparar uma história do usuário para cada sprint, para que desenvolvessemos 
-uma aplicação adaptada as suas necessidades. 
+Foi necessário preparar uma história do usuário para cada sprint, para que desenvolvessemos uma aplicação adaptada as suas necessidades. 
 A ferramenta usada para organização do grupo foi o Trello, criamos quadros de tarefas baseadas no Kanban:
 
 
