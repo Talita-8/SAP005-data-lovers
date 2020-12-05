@@ -60,7 +60,7 @@ Optamos desenvolvê-lo todo em inglês, afinal os arquivos com os dados dos pers
 Mas pode ser revertido com o uso de tradutores automáticos no seu navegador.
 
 
-Então se você é fã, simplesmente gosta de assitir em seu tempo livre ou quer saber um pouco mais
+Então se você é fã, simplesmente gosta de assistir em seu tempo livre ou quer saber um pouco mais
 sobre os personagens da série, nós te convidamos a acessar nossa aplicação neste link.
 
 
