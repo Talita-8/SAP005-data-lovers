@@ -24,9 +24,10 @@ Essa aplicação web traz detalhes sobre os personagens da série de forma inter
 No menu "Characters" você encontrará as informações mais importantes sobre todos os personagens da série. 
 A página conta uma barra de busca em tempo real, além de uma série de filtros:
 * [X] All Characters
-* [X] Status (Alive/ Dead / Unknown)
-* [X] Gender (Male/ Female / Genderless / Unknown)
+* [X] Status (Alive/Dead/Unknown)
+* [X] Gender (Male/Female/Genderless/Unknown)
 * [X] Sort By (A-Z / Z-A)
+Esses filtros também fornecem a porcentagem de cada uma dessas informações.
 
 Tinhamos como prioridade proporcionar um boa experiência ao usuário, pensando em trazer um site com um conteúdo
 interativo e de fácil acesso, optamos por entregar as informações em cards giratórios que são ativados com o passar do mouse, 
@@ -35,7 +36,7 @@ dispensando o "click".
 
 #### Who Would You Be?
 
-A versão desktop conta com o menu "Who would you be?" que vai te contar quem você seria na série, através de um teste.
+A versão desktop conta com o menu "Who would you be?" (em breve uma versão mobile) que vai te contar quem você seria na série, através de um teste. 
 
 ![Gravação de Tela 2020-12-04 às 22 13 51](https://user-images.githubusercontent.com/71895567/101231113-d1023600-3687-11eb-8c3c-98d5ff7faea8.gif)
 
