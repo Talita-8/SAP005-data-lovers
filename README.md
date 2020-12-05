@@ -11,7 +11,7 @@
 
 ## 1. Apresentação
 
-#### Rick and Morty Data Lovers
+## Rick and Morty Data Lovers
 
 É com muito prazer que finalizamos o segundo projeto da Laboratoria: Rick and Morty Data Lovers!
 Essa aplicação web traz detalhes sobre os personagens da série de forma interativa.
