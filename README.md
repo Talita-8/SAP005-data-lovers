@@ -40,12 +40,10 @@ A versão desktop conta com o menu "Who would you be?" que vai te contar quem vo
 ![Gravação de Tela 2020-12-04 às 22 13 51](https://user-images.githubusercontent.com/71895567/101231113-d1023600-3687-11eb-8c3c-98d5ff7faea8.gif)
 
  
-Uma opção divertida para saber mais sobre os personagens mais relevantes, são 9 perguntas que levam a 10 resultados diferentes.
-São os 10 personagens mais relevantes, complementando informações mais detalhadas sobre cada um deles.
+Uma opção divertida para saber mais sobre os personagens mais relevantes, as 9 perguntaa levam a 10 resultados diferentes.
+São os 10 personagens mais relevantes, complementando informações mais detalhadas sobre cada um deles ao fim do teste.
 
-
-![test-result](https://user-images.githubusercontent.com/71895567/101231291-f5124700-3688-11eb-91d6-7ccad200f5e7.png)
-
+![test-result](https://user-images.githubusercontent.com/71895567/101259003-0b5de880-3705-11eb-9fda-65de03e98522.png)
 
 #### Mobile Version
 
@@ -56,7 +54,7 @@ mas também o acesso através do Touch.
 ![mobile-menu](https://user-images.githubusercontent.com/71895567/101231652-7965c980-368b-11eb-9904-21678db18a6e.png)
 
 
-Optamos desenvolvê-lo todo em inglês, afinal os arquivos com os dados dos personagens estão nessa língua.
+Optamos por desenvolvê-lo todo em inglês, afinal os arquivos com os dados dos personagens estão nessa língua.
 Mas pode ser revertido com o uso de tradutores automáticos no seu navegador.
 
 
