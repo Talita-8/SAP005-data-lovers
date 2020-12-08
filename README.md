@@ -61,7 +61,7 @@ Isso pode ser revertido com o uso de tradutores automáticos no seu navegador.
 
 
 Então se você é fã, simplesmente gosta de assistir **Rick and Morty** em seu tempo livre ou quer saber um pouco mais
-sobre os personagens da série, nós te convidamos a acessar nossa aplicação neste [link](https://letbrasil.github.io/SAP005-data-lovers).
+sobre os personagens da série, nós te convidamos a acessar nossa aplicação neste [link](https://talita-8.github.io/SAP005-data-lovers/src/).
 
 
 ## 2. Detalhes do projeto
