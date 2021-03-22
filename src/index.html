@@ -18,12 +18,16 @@
 </head>
 
 <body>
-    <!-- DESKTOP VERSION -->
     <div id="div-mother">
 
         <div id="title">
             <img id="logo-rickandmorty" src="./img/rick-and-morty-min.png" alt="">      
         </div>
+
+        <div id="title-mobile">
+            <img id="logo-mobile" src="./img/rick-and-morty-mobile.png" alt="">      
+        </div>
+
       
         <nav id="navigation-area">
             <ul>
@@ -32,7 +36,11 @@
             </ul>
         </nav>
                  
-        <div id="menu1">
+        <div id="return-filters"> <button>Change Filter</button> </div>
+        <div id="percentage-text"></div>
+    
+
+        <div id="menu-charac">
             <main class="main">
                 <nav id="select-filter">
                     <ul id="filters-options">
@@ -72,207 +80,21 @@
                         </li>
                     </ul>
                 </nav>    
-              
-                <div id="percentage-text"></div>
-    
+               
                 <section id="get-cards">
-                    <!-- divs necessárias aos cards (criadas dinamicamente) -->
+                   
                 </section>
             </main>
         </div>
 
         <div id="questions-area">
-
             <input type="hidden" id="current-question" value="">
-                   
-            <div id="question1" class="question-box">
-                <h1>Which Rick and Morty character would you be?</h1>
-                <p>Question 1 - You are in a group, stuck in the galaxy, so: <br><br>
-                    <input name="choose-box1" value="1" type="radio">
-                    <label class="form-one" for="">I insist on executing a plan that I know will work.</label>
-                    <input name="choose-box1" value="2" type="radio">
-                    <label class="form-two" for="">I try to resolve it with everyone's strength.</label>
-                    <input name="choose-box1" value="3" type="radio">
-                    <label class="form-three" for="">I wait for someone who knows what to do.</label>
-                </p>
-            </div>
-
-            <div id="question2" class="question-box">
-                <h1>Which Rick and Morty character would you be?</h1>
-                <p>Question 2 - Y'all escaped but one of your buddies, who helped you with the entire mission, stayed behind, so: <br><br>
-                    <input name="choose-box2" value="4" type="radio">
-                    <label class="form-one" for="">I keep running, shit happens...</label>
-                    <input name="choose-box2" value="5" type="radio">
-                    <label class="form-two" for="">I go back to save him/her, of course!</label>
-                    <input name="choose-box2" value="6" type="radio">
-                    <label class="form-three" for="">I probably run, but in a panic.</label>
-                </p>
-            </div>
-
-            <div id="question3" class="question-box">
-                <h1>Which Rick and Morty character would you be?</h1>
-                <p>Question 3 - A king from an unknown planet offers you help: <br><br>
-                    <input name="choose-box3" value="7" type="radio">
-                    <label class="form-one" for="">I take it, but with a gun ready to shoot!</label>
-                    <input name="choose-box3" value="8" type="radio">
-                    <label class="form-two" for="">If he's handsome, I trust him and I even stay in his planet!</label>
-                    <input name="choose-box3" value="9" type="radio">
-                    <label class="form-three" for="">I take it and trust him, I have no other choice.</label>
-                </p>
-            </div>
-
-            <div id="question4" class="question-box">
-                <h1>Which Rick and Morty character would you be?</h1>
-                <p>Question 4 - On the way the king is killed, now his planet has no owner, so: <br><br>
-                    <input  name="choose-box4" value="10" type="radio">
-                    <label class="form-one" for="">Now the planet is mine!</label>
-                    <input name="choose-box4" value="11" type="radio">
-                    <label class="form-two" for="">I'm getting out, I've had too many problems here already.</label>
-                    <input name="choose-box4" value="12" type="radio">
-                    <label class="form-three" for="">I'm not gonna be a queen anymore, so I'm leaving.</label>
-                </p>
-            </div>
-
-            <div id="question5" class="question-box">
-                <h1>Which Rick and Morty character would you be?</h1>
-                <p>Question 5 - It seems that there is a planet in trouble, what do you do? <br><br>
-                    <input name="choose-box5" value="13" type="radio">
-                    <label class="form-one" for="">I'll dominate it!</label>
-                    <input name="choose-box5" value="14" type="radio">
-                    <label class="form-two" for="">I'll save it!</label>
-                    <input name="choose-box5" value="15" type="radio">
-                    <label class="form-three" for="">I am in bigger trouble, I'm getting out! </label>
-                </p>
-            </div>
-
-            <div id="question6" class="question-box">
-                <h1>Which Rick and Morty character would you be?</h1>
-                <p>Question 6 - If you try to go back home, you die: <br><br>
-                    <input name="choose-box6" value="16" type="radio">
-                    <label class="form-one" for="">Who said I would go back?</label>
-                    <input name="choose-box6" value="17" type="radio">
-                    <label class="form-two" for="">If I fulfilled my goals, I don't care if I die.</label>
-                    <input name="choose-box6" value="18" type="radio">
-                    <label class="form-three" for="">I would even go back, but if death is certain, I stay.</label>
-                </p>
-            </div>
-
-            <div id="question7" class="question-box">
-                <h1>Which Rick and Morty character would you be??</h1>
-                <p>Question 7 - A planet was found and it seems that it gives eternal life: <br><br>
-                    <input name="choose-box7" value="19" type="radio">
-                    <label class="form-one" for="">Uff, how boring. I want adventure!</label>
-                    <input name="choose-box7" value="20" type="radio">
-                    <label class="form-two" for="">NO WAY! TO EXISTENCE IS TO SUFFER!</label>
-                    <input name="choose-box7" value="21" type="radio">
-                    <label class="form-three" for="">I liked it, I'll stay right here.</label>
-                </p>
-            </div>
-
-            <div id="question8" class="question-box">
-                <h1>Which Rick and Morty character would you be?</h1>
-                <p>Question 8 - Nothing happens on this planet, but you found simulated reality glasses: <br><br>
-                    <input name="choose-box8" value="22" type="radio">
-                    <label class="form-one" for="">Oh spare me, I want to live for real!</label>
-                    <input name="choose-box8" value="23" type="radio">
-                    <label class="form-two" for="">I loved it! It's the perfect place!</label>
-                    <input name="choose-box8" value="24" type="radio">
-                    <label class="form-three" for="">The glasses are cool, I'm leaving with it.</label>
-                </p>
-            </div>
-
-            <div id="question9" class="question-box">
-                <h1>Which Rick and Morty character would you be?</h1>
-                <p>Question 9 - A mission has arisen, what do you think about that? <br><br>
-                    <input name="choose-box9" value="25" type="radio">
-                    <label class="form-one" for="">That's all I need before I die.</label>
-                    <input name="choose-box9" value="26" type="radio">
-                    <label class="form-two" for="">I'll only go if there's something that interests me there.</label>
-                    <input name="choose-box9" value="27" type="radio">
-                    <label class="form-three" for="">Only I define my missions.</label>
-                </p>
-            </div>
-
-            <div id="question10" class="question-box-result">
-                <div id="pics-container">
-                    <img id="pics-result" src="#" alt="">
-                </div>
-                <div id="result-test"></div>
-                <button id="result-button">
-                    Results
-                </button>
-            </div>
-
-            <button id="next-button"> Next </button>
-
         </div>
-
- 
-      
-        <!-- MOBILE VERSION -->
-        <div id="div-mother-mobile">
+        <button id="result-button">
+            Results
+        </button> 
+        <button id="next-button"> Next </button>
             
-            <div id="title-mobile">
-                <img src="./img/rick-and-morty-mobile.png" alt="">
-            </div>
-
-            <nav id="navigation-area-mobile">
-                <button id="button-charac-mobile"> Characters </button>
-            </nav>
-
-            <div id="menu1-mobile">
-                <button id="return-filters">Change filters</button>
-                <main class="main-mobile">
-                    <nav id="select-filter-mobile">
-                        <ul id="filters-options-mobile">
-                            <li>
-                                <button class="select-style-mobile" id="all-button-mobile">
-                                    All characters
-                                </button> 
-                            </li>
-                            <li>
-                                <select class="select-style-mobile" name="" id="status-filter-mobile" > 
-                                    <option value="none"> Status </option>
-                                    <option value="Alive"> Alive </option>
-                                    <option value="Dead"> Dead </option>
-                                    <option value="unknown"> Unknown </option>
-                                </select>
-                            </li>
-                            <li>
-                                <select class="select-style-mobile" name="" id="gender-filter-mobile">
-                                    <option value="none"> Gender </option>
-                                    <option value="Male"> Male </option>
-                                    <option value="Female"> Female </option>
-                                    <option value="Genderless"> Genderless </option>
-                                    <option value="unknown"> Unknown </option>
-                                </select>
-                            </li>
-                            <li>
-                                <select class="select-style-mobile" name="" id="order-filter-mobile">
-                                    <option value="none"> Sort by </option>
-                                    <option value="a-z"> Name: A - Z </option>
-                                    <option value="z-a"> Name: Z - A </option>
-                                </select>
-                            </li>
-                            <!-- Aguardando alteração mobile  
-                            <li>
-                                <form action="">
-                                    <input id="data-in-mobile" placeholder="Search by name..." type="search" incremental="incremental">
-                                </form>   
-                            </li> -->
-                        </ul>
-                    </nav>    
-                  
-                    <div id="percentage-text-mobile"></div>
-        
-                    <section id="get-cards-mobile">
-                        <!-- divs necessárias aos cards (criadas dinamicamente) -->
-                    </section>
-                </main>
-            </div>
-
-        </div>
-
     </div>
 
     <script src="./main.js" type="module"></script>

@@ -7,6 +7,10 @@ body {
     justify-content: center;
 }
 
+#title-mobile {
+    display: none;
+}
+
 /* Menu e botões */
 
 #navigation-area {
@@ -44,7 +48,11 @@ body {
 }
 
 /* Filtro */
-#menu1 {
+#menu-charac {
+    display: none;
+}
+
+#return-filters {
     display: none;
 }
 
@@ -59,12 +67,19 @@ body {
 
 #select-filter {
     display: none;
+
+    justify-content: center;
 }
 
 .select-style {
     color: rgb(82, 255, 47);
     background-color: rgba(0, 0, 0, 0.815);
 
+    width: 150px;
+    height: 30px;
+
+    font-family: 'VT323', monospace;
+    font-size: 22px;
     border-radius: 6px;
 }
 
@@ -117,7 +132,6 @@ body {
 .all-cards:hover .card-info {
     transform: rotateY(180deg); /* Passando o mouse sobre cartao, o filho dela (container) girará 180 graus no eixo y(eixo vertical) */
 }
-
 
 .card-front {
     position: absolute;
@@ -205,6 +219,7 @@ body {
 }
 
 #next-button {
+    display: none;
     float: right;
     width: 6%;
 
@@ -228,6 +243,8 @@ body {
 }
 
 #result-button {
+    display: none;
+
     background-color: rgb(63, 63, 63);
     margin-left: 45%;
 
@@ -270,26 +287,6 @@ body {
     border: 3px solid #03a3d4;
 }
 
-/* Mobile desativado no desktop */
-
-#div-mother-mobile {
-    display: none;
-}
-
-#title-mobile {
-    display: none;
-}
-
-#navigation-area-mobile {
-    display: none;
-}  
-
-.main-mobile {
-    display: none;
-}
-
-
-
 
 
 
@@ -297,31 +294,48 @@ body {
 
 /* ----- Formatação Mobile --------- */
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 500px) {
    
-    #div-mother-mobile {
-        display: inline;
+    #div-mother {
+        display: flex;
+        flex-flow: column nowrap;
     }
 
-    #title-mobile{
+    #title {
+        display: none;
+    }
+
+    #title-mobile {
         display: flex;
         justify-content: center;
     }
 
     /* Menu e botões Mobile */
 
-    #navigation-area-mobile {
+    #navigation-area {
         display: flex;
-        justify-content: center;
+        background-color: rgba(57, 59, 75, 0.13);
     }
 
-    #button-charac-mobile {
-        width: 70%;
+    #navigation-area ul {
+        width: 100%;
+        height: 100%;
 
+        padding: 0;
+    }
+
+    #navigation-area ul a {
+        width: 200px;
+    }
+
+    .buttons-config{
+   
+        width: 80%;
+        height: 80%;
+
+        margin: 0;
         border:none;
-        border-radius: 10%;
-        padding: 3%;
-        margin: 2% 0% 3%;
+        border-radius: 10px;
 
         background-color: rgba(10, 10, 36, 0.644);
 
@@ -333,14 +347,22 @@ body {
         transition: 1s;
     }
 
-    #button-charac-mobile:hover {
+    #button-config:hover {
         background-color:  rgba(56, 25, 88, 0.918);
+    }
+
+    #test-button {
+        display: none;
     }
 
     /* Filtros */
 
-    #percentage-text-mobile {
-        display: inline;
+    #menu-charac {
+        display: none;
+        justify-content: center;
+    }
+
+    #percentage-text {
 
         color: white;
         font-size: 30px;
@@ -349,39 +371,49 @@ body {
 
     #return-filters {
         display: none;
+        justify-content: center;
        
         width: 100%;
+        height: 100%;
 
-        background-color: rgba(33, 11, 54, 0.507);
+    }
+    #return-filters button {
+        
+        background-color: rgba(109, 19, 189, 0.829);
 
         font-family: 'VT323', monospace;
         font-size: 20px;
         color: rgb(163, 247, 7);
 
-        padding: 2%;
+        padding: 5px;
         border-radius: 6px;
         border: none;
 
         transition: 1s;
     }
 
-    #return-filters:hover {
+    #return-filters button:hover {
         background-color: rgba(97, 47, 148, 0.507);
     }
 
-    #select-filter-mobile {
+    #select-filter {
         display: none;
-        margin-left: 7%;
     }
 
-    #all-button-mobile {
+    #filters-options {
+        flex-flow: column nowrap;
+        list-style: none;
+
+        padding: 0;
+    }
+
+    #filters-options li {
+        width: 100%;
+    }
+
+    .select-style {
         width: 200px;
         height: 40px;
-    }
-
-    .select-style-mobile {
-        width: 100%;
-        height: 100%;
 
         color: rgb(82, 255, 47);
         background-color: rgba(0, 0, 0, 0.815);
@@ -393,7 +425,8 @@ body {
         margin: 2%;
     }
 
-    #data-in-mobile {
+    #data-in {
+        display: none;
         width: 100%;
         height: 25px;
 
@@ -406,42 +439,42 @@ body {
 
     /* Card de Informações dos Personagens */
 
-    .main-mobile {
+    .main {
         display: flex;
+    
     }
 
-    #get-cards-mobile {
-        display: flex;
+    #get-cards {
+        display: none;
         flex-wrap: wrap;
-
         margin-left: 1%;
-        width: 100%;
+        width: 200px;
     }
 
-    .all-cards-mobile {
-        margin: 2%;
+    .all-cards {
+        margin: 2px;
         width: 150px;
         height: 150px;
 
         perspective: 1000px; /* perspectiva 3D */
     }
     
-    .all-cards-mobile:hover {
+    .all-cards:hover {
         height: 360px;
     }
 
-    .card-info-mobile {
+    .card-info {
         position: relative;
         height: 50%;   /* 100% da altura do cartão */
         transition: transform .4s;  /*Tempo de duração do giro*/
         transform-style: preserve-3d; /* Garante que a transformação preserve o efeito 3D */
     }
 
-    .all-cards-mobile:hover .card-info-mobile {
+    .all-cards:hover .card-info {
         transform: rotateY(180deg); /* Passando o mouse sobre cartao, o filho dela (container) girará 180 graus no eixo y(eixo vertical) */
     }
 
-    .card-front-mobile {
+    .card-front {
         position: absolute;
         width: 100%;
 
@@ -457,9 +490,9 @@ body {
         background-color: rgba(25, 25, 26, 0.301);
     }
 
-    .card-back-mobile {
+    .card-back {
         position: absolute;
-        width: 100%;
+        width: 160px;
 
         backface-visibility: hidden; /* Garante que a parte de trás não aparecerá */
         -webkit-backface-visibility: hidden;
@@ -470,12 +503,12 @@ body {
         font-family: 'VT323', monospace;
         
         border-radius: 8%;
-        padding: 9%;
+        padding: 6%;
         color: white;
         background-color: rgb(35, 36, 36);
     }
 
-    .card-back-mobile ul {
+    .card-back ul {
         list-style: none;
 
         border-radius: 6%;
@@ -483,35 +516,21 @@ body {
         padding: 3%;
     }
 
-    .front-pic-mobile {
+    .front-pic {
         border-radius: 50%;
         width: 90px;
         height: 90px;
     }
 
-    .back-pic-mobile {
+    .back-pic {
         width: 100%;
         border-radius: 10%;
         border: 2px solid rgb(77, 211, 211);
     }
     
-    .back-pic-mobile ul {
+    .back-pic ul {
         list-style: none;
         padding: 2px;
         border: 1px solid rgb(75, 74, 74);
-    }
-
-    /* Desktop desabilitado no Mobile */
-
-    #title {
-        display: none;
-    }
-
-    #navigation-area {
-        display: none;
-    }
-
-    #card-info {
-        display: none;
     }
 }
